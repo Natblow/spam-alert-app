@@ -1,6 +1,6 @@
 # Slack Spams Alerts
 
-#### This accepts a JSON payload as a POST request and sends an alert to a Slack channel if the payload matches desired criteria.
+#### This app accepts a JSON payload as a POST request and sends an alert to a Slack channel if the payload matches desired criteria.
 
 On line 17 from the reports controller we have that endpoint that behave that way.
 
@@ -102,6 +102,8 @@ Click on the "New" button on the top right from your dashboard.
 
 **Select Web Services** . Then you can put this repo url or your own.
 
+On the build command, we only need `bundle install` ![image](https://user-images.githubusercontent.com/85266997/222730894-ba2cc17b-d518-400a-8f98-2ffd8f03fe30.png)
+
 Make sure to have the environment variables on render as such :
 
 ```bash
@@ -117,7 +119,7 @@ SECRET_KEY_BASE = 'somethingsomething'
 ``` 
 (You can see your secret key base with the command `Rails credentials:edit`)
 
-On the build command, we only need `bundle install` ![image](https://user-images.githubusercontent.com/85266997/222730894-ba2cc17b-d518-400a-8f98-2ffd8f03fe30.png)
+
 
 
 
